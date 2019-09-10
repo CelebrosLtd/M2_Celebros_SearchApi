@@ -1,0 +1,21 @@
+{
+    "name": "celebros/module-search-api",
+    "type": "magento2-module",
+    "description": "Celebros Search API",
+    "keywords": [],
+    "version": "0.9.3",
+    "homepage": "https://celebros.com",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|7.1.*|7.2.*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Celebros\\SearchApi\\": ""
+        }
+    }
+}
